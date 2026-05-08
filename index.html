@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamil Nadu Urdu Academy — தமிழ்நாடு உருது அகாதெமி</title>
+  <meta name="description" content="Official platform of Tamil Nadu Urdu Academy. Explore government schemes, scholarships, cultural events, and applications for Urdu language promotion in Tamil Nadu.">
+  <meta name="keywords" content="Tamil Nadu, Urdu Academy, Scholarships, Schemes, Government, Education, Culture">
+  <meta name="author" content="Tamil Nadu Urdu Academy">
+  <meta name="theme-color" content="#0096C7">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__brand" id="nav-brand">
+        <div class="navbar__logo">
+          <span class="navbar__logo-icon">ا</span>
+        </div>
+        <div class="navbar__brand-text">
+          <span class="navbar__title" data-i18n="academy_title">Tamil Nadu Urdu Academy</span>
+          <span class="navbar__subtitle" data-i18n="academy_subtitle">தமிழ்நாடு உருது அகாதெமி</span>
+        </div>
+      </a>
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="#home" class="navbar__link active" data-page="home" data-i18n="nav_home">Home</a></li>
+        <li><a href="#about" class="navbar__link" data-page="about" data-i18n="nav_about">About</a></li>
+        <li><a href="#schemes" class="navbar__link" data-page="schemes" data-i18n="nav_schemes">Schemes</a></li>
+        <li><a href="#events" class="navbar__link" data-page="events" data-i18n="nav_events">Events</a></li>
+        <li><a href="#announcements" class="navbar__link" data-page="announcements" data-i18n="nav_announcements">Announcements</a></li>
+        <li><a href="#gallery" class="navbar__link" data-page="gallery" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="#contact" class="navbar__link" data-page="contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          <button class="lang-switcher__btn" data-lang="en">EN</button>
+          <button class="lang-switcher__btn" data-lang="ta">தமிழ்</button>
+          <button class="lang-switcher__btn" data-lang="ur">اردو</button>
+        </div>
+        
+        <a href="#login" class="btn btn--outline btn--sm" id="nav-login-btn" data-page="login">
+          <i class="ri-user-line"></i> <span data-i18n="nav_login">Login</span>
+        </a>
+        <a href="#dashboard" class="btn btn--primary btn--sm navbar__dashboard-btn" id="nav-dashboard-btn" data-page="dashboard" style="display:none;">
+          <i class="ri-dashboard-line"></i> <span data-i18n="nav_dashboard">Dashboard</span>
+        </a>
+      </div>
+      <button class="navbar__hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== MOBILE NAV ========== -->
+  <div class="mobile-nav" id="mobile-nav">
+    <ul class="mobile-nav__links">
+      <li><a href="#home" data-page="home">Home</a></li>
+      <li><a href="#about" data-page="about">About</a></li>
+      <li><a href="#schemes" data-page="schemes">Schemes</a></li>
+      <li><a href="#events" data-page="events">Events</a></li>
+      <li><a href="#announcements" data-page="announcements">Announcements</a></li>
+      <li><a href="#gallery" data-page="gallery">Gallery</a></li>
+      <li><a href="#contact" data-page="contact">Contact</a></li>
+      <li><a href="#login" data-page="login" id="mobile-login-btn"><i class="ri-user-line"></i> Login</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="main" id="app-content">
+    <!-- Pages rendered here by JS -->
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__about">
+          <div class="footer__brand">
+            <div class="navbar__logo navbar__logo--footer">
+              <span class="navbar__logo-icon">ا</span>
+            </div>
+            <h3>Tamil Nadu Urdu Academy</h3>
+          </div>
+          <p>Promoting Urdu language, literature, and culture across Tamil Nadu since 1992. A Government of Tamil Nadu initiative.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+            <a href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a>
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_quick_links">Quick Links</h4>
+          <ul>
+            <li><a href="#home" data-i18n="nav_home">Home</a></li>
+            <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+            <li><a href="#schemes" data-i18n="nav_schemes">Schemes</a></li>
+            <li><a href="#events" data-i18n="nav_events">Events</a></li>
+            <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_services">Services</h4>
+          <ul>
+            <li><a href="#schemes" data-i18n="nav_schemes">Scholarships</a></li>
+            <li><a href="#apply" data-i18n="apply_now">Apply for Schemes</a></li>
+            <li><a href="#announcements" data-i18n="nav_announcements">Announcements</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Get Support</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer_contact">Contact</h4>
+          <ul class="footer__contact-list">
+            <li><i class="ri-map-pin-line"></i> <span data-i18n="address">No. 45, Anna Salai, Chennai – 600002</span></li>
+            <li><i class="ri-phone-line"></i> +91 44 2852 1234</li>
+            <li><i class="ri-mail-line"></i> info@tnurduacademy.gov.in</li>
+            <li><i class="ri-time-line"></i> Mon–Sat: 9:30 AM – 5:30 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p><span data-i18n="copyright">© 2026 Tamil Nadu Urdu Academy. All rights reserved.</span> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p class="footer__gov" data-i18n="gov_initiative">A Government of Tamil Nadu Initiative</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL ========== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <button class="modal__close" id="modal-close"><i class="ri-close-line"></i></button>
+      <div class="modal__content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightbox-close"><i class="ri-close-line"></i></button>
+    <button class="lightbox__prev" id="lightbox-prev"><i class="ri-arrow-left-s-line"></i></button>
+    <button class="lightbox__next" id="lightbox-next"><i class="ri-arrow-right-s-line"></i></button>
+    <div class="lightbox__content">
+      <img src="" alt="" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- ========== TOAST CONTAINER ========== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- ========== ANNOUNCEMENT MODAL ========== -->
+  <div class="announcement-modal-overlay" id="announcement-modal">
+    <div class="announcement-modal">
+      <button class="announcement-modal__close" onclick="closeAnnouncementModal()"><i class="ri-close-line"></i></button>
+      <div class="announcement-modal__header">
+        <div class="announcement-modal__logo">ا</div>
+        <div class="announcement-modal__academy-text" data-i18n="academy_title">Tamil Nadu Urdu Academy</div>
+      </div>
+      <div class="announcement-modal__body">
+        <h2 class="announcement-modal__title">Part-Time Urdu Certificate Course</h2>
+        <p class="caption mb-4">Enhance your language skills with our professional certification program.</p>
+        <div class="announcement-modal__details">
+          <div class="announcement-modal__detail-item">
+            <span class="announcement-modal__detail-label">Duration</span>
+            <span class="announcement-modal__detail-value">6 Months</span>
+          </div>
+          <div class="announcement-modal__detail-item">
+            <span class="announcement-modal__detail-label">Mode</span>
+            <span class="announcement-modal__detail-value">Online / Offline</span>
+          </div>
+          <div class="announcement-modal__detail-item">
+            <span class="announcement-modal__detail-label">Fees</span>
+            <span class="announcement-modal__detail-value">₹500 (Nominal)</span>
+          </div>
+          <div class="announcement-modal__detail-item">
+            <span class="announcement-modal__detail-label">Last Date</span>
+            <span class="announcement-modal__detail-value highlight">May 15, 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="announcement-modal__footer">
+        <button class="btn btn--primary btn--full" onclick="navigate('apply'); closeAnnouncementModal();">
+          <i class="ri-arrow-right-line"></i> <span data-i18n="apply_now">Apply Now</span>
+        </button>
+        <label class="announcement-modal__do-not-show">
+          <input type="checkbox" id="do-not-show-check"> Do not show again today
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
