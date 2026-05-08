@@ -324,20 +324,20 @@ h6 { font-size: var(--fs-md); }
   flex-shrink: 0;
 }
 .navbar__logo {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   background: linear-gradient(135deg, var(--clr-primary) 0%, var(--clr-primary-light) 100%);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 150, 199, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 150, 199, 0.3);
 }
-.navbar__logo--footer { width: 60px; height: 60px; }
+.navbar__logo--footer { width: 100px; height: 100px; }
 .navbar__logo-icon {
   font-family: var(--ff-urdu);
   color: var(--clr-secondary);
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 700;
   line-height: 1;
 }
