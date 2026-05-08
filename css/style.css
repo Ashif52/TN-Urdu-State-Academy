@@ -73,7 +73,7 @@
 
   /* Layout */
   --max-width: 1280px;
-  --navbar-height: 72px;
+  --navbar-height: 84px;
   --sidebar-width: 260px;
 
   /* Borders */
@@ -324,8 +324,8 @@ h6 { font-size: var(--fs-md); }
   flex-shrink: 0;
 }
 .navbar__logo {
-  width: 100px;
-  height: 100px;
+  width: 54px;
+  height: 54px;
   background: linear-gradient(135deg, var(--clr-primary) 0%, var(--clr-primary-light) 100%);
   border-radius: var(--radius-md);
   display: flex;
@@ -333,11 +333,11 @@ h6 { font-size: var(--fs-md); }
   justify-content: center;
   box-shadow: 0 4px 12px rgba(0, 150, 199, 0.2);
 }
-.navbar__logo--footer { width: 80px; height: 80px; }
+.navbar__logo--footer { width: 48px; height: 48px; }
 .navbar__logo-icon {
   font-family: var(--ff-urdu);
   color: var(--clr-secondary);
-  font-size: 3.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -357,7 +357,7 @@ h6 { font-size: var(--fs-md); }
 .navbar__links {
   display: flex;
   align-items: center;
-  gap: var(--sp-1);
+  gap: var(--sp-4);
 }
 .navbar__link {
   padding: var(--sp-2) var(--sp-3);
