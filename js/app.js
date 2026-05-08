@@ -1,5 +1,5 @@
 /* ============================================================
-   TAMIL NADU URDU ACADEMY — APPLICATION
+   Tamil Nadu Urdu State Academy — APPLICATION
    ============================================================ */
 
 /* ── STATE ── */
@@ -359,7 +359,7 @@ function renderHome() {
             <span>${i18n.activeLang === 'ta' ? 'அகாதெமி தலைமை' : (i18n.activeLang === 'ur' ? 'اکیڈمی کی قیادت' : 'Academy Leadership')}</span>
           </div>
           <h2 class="officials__title">${i18n.activeLang === 'ta' ? 'அகாதெமி அதிகாரி' : (i18n.activeLang === 'ur' ? 'اکیڈمی کے عہدیدار' : 'Academy Official')}</h2>
-          <p class="officials__subtitle">${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமியின் பார்வை மற்றும் பணியை இயக்குதல்' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی کے وژن اور مشن کو آگے بڑھانا' : 'Driving the vision and mission of Tamil Nadu Urdu Academy')}</p>
+          <p class="officials__subtitle">${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமியின் பார்வை மற்றும் பணியை இயக்குதல்' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی کے وژن اور مشن کو آگے بڑھانا' : 'Driving the vision and mission of Tamil Nadu Urdu State Academy')}</p>
         </div>
         <div class="officials__single-wrapper">
           <div class="officials__track officials__track--single" id="officials-track">
@@ -382,7 +382,7 @@ function renderHome() {
       <div class="container">
         <div class="welcome-strip__grid">
           <div class="welcome-strip__content">
-            <h2>${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமிக்கு வரவேற்கிறோம்' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی میں آپ کا خیر مقدم ہے' : 'Welcome to Tamil Nadu Urdu Academy')}</h2>
+            <h2>${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமிக்கு வரவேற்கிறோம்' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی میں آپ کا خیر مقدم ہے' : 'Welcome to Tamil Nadu Urdu State Academy')}</h2>
             <p>${i18n.t('footer_tagline')}</p>
             <div class="welcome-strip__bilingual">
               <div class="urdu-text">تمل ناڈو اردو اکیڈمی میں آپ کا خیر مقدم ہے۔</div>
@@ -559,7 +559,7 @@ function renderAbout() {
         <div class="animate-in">
           <h2 class="mb-6">${i18n.activeLang === 'ta' ? 'நாங்கள் யார்' : (i18n.activeLang === 'ur' ? 'ہم کون ہیں' : 'Who We Are')}</h2>
           <p style="font-size:var(--fs-md); line-height:var(--lh-relaxed); color:var(--clr-text-secondary); margin-bottom:var(--sp-6)">
-            ${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமி 1992 ஆம் ஆண்டு தமிழ்நாடு அரசால் நிறுவப்பட்ட ஒரு தன்னாட்சி அமைப்பாகும், இது மாநிலம் முழுவதும் உருது மொழி, இலக்கியம் மற்றும் கலாச்சாரத்தை மேம்படுத்துவதற்கும் மேம்படுத்துவதற்கும் அர்ப்பணிக்கப்பட்டுள்ளது. முப்பது ஆண்டுகளுக்கும் மேலான சேவையுடன், அகாதெமி நவீன கல்வித் தேவைகளுக்கு ஏற்றவாறு வளமான உருது பாரம்பரியத்தைப் பாதுகாப்பதில் முக்கியப் பங்காற்றியுள்ளது.' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی 1992 میں حکومت تامل ناڈو کے ذریعہ قائم کردہ ایک خود مختار ادارہ ہے، جو ریاست بھر میں اردو زبان، ادب اور ثقافت کے فروغ اور ترقی کے لیے وقف ہے۔ تین دہائیوں سے زیادہ کی خدمت کے ساتھ، اکیڈمی نے جدید تعلیمی ضروریات کو اپناتے ہوئے اردو کے بھرپور ورثے کو محفوظ رکھنے میں اہم کردار ادا کیا ہے۔' : 'The Tamil Nadu Urdu Academy is an autonomous body established by the Government of Tamil Nadu in 1992, dedicated to the promotion and development of Urdu language, literature, and culture across the state. With over three decades of service, the Academy has been instrumental in preserving the rich Urdu heritage while adapting to modern educational needs.')}
+            ${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமி 1992 ஆம் ஆண்டு தமிழ்நாடு அரசால் நிறுவப்பட்ட ஒரு தன்னாட்சி அமைப்பாகும், இது மாநிலம் முழுவதும் உருது மொழி, இலக்கியம் மற்றும் கலாச்சாரத்தை மேம்படுத்துவதற்கும் மேம்படுத்துவதற்கும் அர்ப்பணிக்கப்பட்டுள்ளது. முப்பது ஆண்டுகளுக்கும் மேலான சேவையுடன், அகாதெமி நவீன கல்வித் தேவைகளுக்கு ஏற்றவாறு வளமான உருது பாரம்பரியத்தைப் பாதுகாப்பதில் முக்கியப் பங்காற்றியுள்ளது.' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی 1992 میں حکومت تامل ناڈو کے ذریعہ قائم کردہ ایک خود مختار ادارہ ہے، جو ریاست بھر میں اردو زبان، ادب اور ثقافت کے فروغ اور ترقی کے لیے وقف ہے۔ تین دہائیوں سے زیادہ کی خدمت کے ساتھ، اکیڈمی نے جدید تعلیمی ضروریات کو اپناتے ہوئے اردو کے بھرپور ورثے کو محفوظ رکھنے میں اہم کردار ادا کیا ہے۔' : 'The Tamil Nadu Urdu State Academy is an autonomous body established by the Government of Tamil Nadu in 1992, dedicated to the promotion and development of Urdu language, literature, and culture across the state. With over three decades of service, the Academy has been instrumental in preserving the rich Urdu heritage while adapting to modern educational needs.')}
           </p>
           <p style="font-size:var(--fs-md); line-height:var(--lh-relaxed); color:var(--clr-text-secondary)">
             ${i18n.activeLang === 'ta' ? 'நாங்கள் தமிழ்நாடு அரசின் தமிழ் வளர்ச்சி மற்றும் தகவல் துறையின் கீழ் செயல்படுகிறோம், மாநிலத்தில் உருது மொழியை மேம்படுத்துவதற்கான முதன்மை நிறுவன அமைப்பாக செயல்படுகிறோம். எங்கள் திட்டங்கள் தமிழ்நாட்டின் அனைத்து 38 மாவட்டங்களிலும் 50,000 க்கும் மேற்பட்ட பயனாளிகளை சென்றடைகின்றன.' : (i18n.activeLang === 'ur' ? 'ہم محکمہ تامل ترقی اور اطلاعات، حکومت تامل ناڈو کے تحت کام کرتے ہیں، جو ریاست میں اردو زبان کے فروغ کے لیے بنیادی ادارہ جاتی ادارے کے طور پر کام کر رہے ہیں۔ ہمارے پروگرام تامل ناڈو کے تمام 38 اضلاع میں 50,000 سے زیادہ مستفیدین تک پہنچتے ہیں۔' : 'We operate under the Department of Tamil Development and Information, Government of Tamil Nadu, serving as the primary institutional body for Urdu language promotion in the state. Our programs reach over 50,000 beneficiaries across all 38 districts of Tamil Nadu.')}
@@ -662,7 +662,7 @@ function renderSchemes() {
     <div class="page-banner">
       <div class="container">
         <h1>${i18n.activeLang === 'ta' ? 'அரசு திட்டங்கள்' : (i18n.activeLang === 'ur' ? 'حکومتی اسکیمیں' : 'Government Schemes')}</h1>
-        <p>${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமி வழங்கும் அனைத்து திட்டங்களையும் உலாவவும்' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی کی جانب سے پیش کردہ تمام اسکیمیں دیکھیں' : 'Browse all schemes offered by Tamil Nadu Urdu Academy')}</p>
+        <p>${i18n.activeLang === 'ta' ? 'தமிழ்நாடு உருது அகாதெமி வழங்கும் அனைத்து திட்டங்களையும் உலாவவும்' : (i18n.activeLang === 'ur' ? 'تامل ناڈو اردو اکیڈمی کی جانب سے پیش کردہ تمام اسکیمیں دیکھیں' : 'Browse all schemes offered by Tamil Nadu Urdu State Academy')}</p>
         <div class="breadcrumb"><a href="#home" onclick="navigate('home'); return false;">${i18n.t('nav_home')}</a> <i class="ri-arrow-right-s-line"></i> ${i18n.t('nav_schemes')}</div>
       </div>
     </div>
@@ -1109,7 +1109,7 @@ function renderContact() {
     <div class="page-banner">
       <div class="container">
         <h1>Contact Us</h1>
-        <p>Get in touch with Tamil Nadu Urdu Academy</p>
+        <p>Get in touch with Tamil Nadu Urdu State Academy</p>
         <div class="breadcrumb"><a href="#home" onclick="navigate('home'); return false;">Home</a> <i class="ri-arrow-right-s-line"></i> Contact</div>
       </div>
     </div>
@@ -1683,7 +1683,7 @@ function handleAdminLogin() {
 function handleRegister(e) {
   e.preventDefault();
   state.isLoggedIn = true;
-  showToast('success', 'Account Created!', 'Welcome to Tamil Nadu Urdu Academy');
+  showToast('success', 'Account Created!', 'Welcome to Tamil Nadu Urdu State Academy');
   navigate('dashboard');
 }
 

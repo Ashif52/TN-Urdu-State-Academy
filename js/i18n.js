@@ -1,5 +1,5 @@
 /**
- * Tamil Nadu Urdu Academy — i18n Engine
+ * Tamil Nadu Urdu State Academy — i18n Engine
  */
 
 const i18n = {
@@ -23,14 +23,14 @@ const i18n = {
       "learn_more": "Learn More",
       "explore_schemes": "Explore Schemes",
       "government_tn": "Government of Tamil Nadu",
-      "academy_title": "Tamil Nadu Urdu Academy",
+      "academy_title": "Tamil Nadu Urdu State Academy",
       "academy_subtitle": "தமிழ்நாடு உருது அகாதெமி",
       "footer_tagline": "Promoting Urdu language, literature, and culture across Tamil Nadu since 1992. A Government of Tamil Nadu initiative.",
       "footer_contact": "Contact",
       "footer_services": "Services",
       "footer_quick_links": "Quick Links",
       "address": "No. 45, Anna Salai, Chennai – 600002",
-      "copyright": "© 2026 Tamil Nadu Urdu Academy. All rights reserved.",
+      "copyright": "© 2026 Tamil Nadu Urdu State Academy. All rights reserved.",
       "gov_initiative": "A Government of Tamil Nadu Initiative"
     },
     ta: {
@@ -50,7 +50,7 @@ const i18n = {
       "explore_schemes": "திட்டங்களை ஆராயுங்கள்",
       "government_tn": "தமிழ்நாடு அரசு",
       "academy_title": "தமிழ்நாடு உருது அகாதெமி",
-      "academy_subtitle": "Tamil Nadu Urdu Academy",
+      "academy_subtitle": "Tamil Nadu Urdu State Academy",
       "footer_tagline": "1992 முதல் தமிழ்நாடு முழுவதும் உருது மொழி, இலக்கியம் மற்றும் கலாச்சாரத்தை மேம்படுத்துகிறது. தமிழ்நாடு அரசின் ஒரு முயற்சி.",
       "footer_contact": "தொடர்பு",
       "footer_services": "சேவைகள்",

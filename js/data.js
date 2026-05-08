@@ -1,5 +1,5 @@
 /* ============================================================
-   TAMIL NADU URDU ACADEMY — DATA LAYER
+   Tamil Nadu Urdu State Academy — DATA LAYER
    ============================================================ */
 
 const DATA = {
@@ -358,7 +358,7 @@ const DATA = {
       },
       date: "2026-04-15",
       content: {
-        en: "The Tamil Nadu Urdu Academy is now accepting applications for the Urdu Student Scholarship program for the academic year 2026–27. Eligible students are encouraged to apply before the deadline.",
+        en: "The Tamil Nadu Urdu State Academy is now accepting applications for the Urdu Student Scholarship program for the academic year 2026–27. Eligible students are encouraged to apply before the deadline.",
         ta: "தமிழ்நாடு உருது அகாதெமி இப்போது 2026-27 கல்வியாண்டிற்கான உருது மாணவர் உதவித்தொகை திட்டத்திற்கான விண்ணப்பங்களை ஏற்றுக்கொள்கிறது. தகுதியுள்ள மாணவர்கள் காலக்கெடுவிற்கு முன் விண்ணப்பிக்க ஊக்குவிக்கப்படுகிறார்கள்.",
         ur: "تامل ناڈو اردو اکیڈمی اب تعلیمی سال 27-2026 کے لیے اردو اسٹوڈنٹ اسکالرشپ پروگرام کے لیے درخواستیں قبول کر رہی ہے۔ اہل طلباء کی حوصلہ افزائی کی جاتی ہے کہ وہ آخری تاریخ سے پہلے اپلائی کریں۔"
       },
@@ -388,7 +388,7 @@ const DATA = {
     },
     date: "2026-05-05",
     content: {
-      en: "Tamil Nadu Urdu Academy is organizing a cultural festival featuring poetry, music, and literary discussions. All are welcome to participate.",
+      en: "Tamil Nadu Urdu State Academy is organizing a cultural festival featuring poetry, music, and literary discussions. All are welcome to participate.",
       ta: "தமிழ்நாடு உருது அகாதெமி கவிதை, இசை மற்றும் இலக்கிய கலந்துரையாடல்களைக் கொண்ட ஒரு கலாச்சார விழாவை நடத்துகிறது. அனைவரும் பங்கேற்க வரவேற்கப்படுகிறார்கள்.",
       ur: "تامل ناڈو اردو اکیڈمی شاعری، موسیقی اور ادبی مباحثوں پر مشتمل ایک ثقافتی میلہ منعقد کر رہی ہے۔ سب کو شرکت کی دعوت دی جاتی ہے۔"
     },
