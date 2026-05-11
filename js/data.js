@@ -358,7 +358,7 @@ const DATA = {
       },
       date: "2026-04-15",
       content: {
-        en: "The Tamil Nadu Urdu State Academy is now accepting applications for the Urdu Student Scholarship program for the academic year 2026–27. Eligible students are encouraged to apply before the deadline.",
+        en: "The Tamil Nadu State Urdu Academy is now accepting applications for the Urdu Student Scholarship program for the academic year 2026–27. Eligible students are encouraged to apply before the deadline.",
         ta: "தமிழ்நாடு உருது அகாதெமி இப்போது 2026-27 கல்வியாண்டிற்கான உருது மாணவர் உதவித்தொகை திட்டத்திற்கான விண்ணப்பங்களை ஏற்றுக்கொள்கிறது. தகுதியுள்ள மாணவர்கள் காலக்கெடுவிற்கு முன் விண்ணப்பிக்க ஊக்குவிக்கப்படுகிறார்கள்.",
         ur: "تامل ناڈو اردو اکیڈمی اب تعلیمی سال 27-2026 کے لیے اردو اسٹوڈنٹ اسکالرشپ پروگرام کے لیے درخواستیں قبول کر رہی ہے۔ اہل طلباء کی حوصلہ افزائی کی جاتی ہے کہ وہ آخری تاریخ سے پہلے اپلائی کریں۔"
       },
@@ -388,7 +388,7 @@ const DATA = {
     },
     date: "2026-05-05",
     content: {
-      en: "Tamil Nadu Urdu State Academy is organizing a cultural festival featuring poetry, music, and literary discussions. All are welcome to participate.",
+      en: "Tamil Nadu State Urdu Academy is organizing a cultural festival featuring poetry, music, and literary discussions. All are welcome to participate.",
       ta: "தமிழ்நாடு உருது அகாதெமி கவிதை, இசை மற்றும் இலக்கிய கலந்துரையாடல்களைக் கொண்ட ஒரு கலாச்சார விழாவை நடத்துகிறது. அனைவரும் பங்கேற்க வரவேற்கப்படுகிறார்கள்.",
       ur: "تامل ناڈو اردو اکیڈمی شاعری، موسیقی اور ادبی مباحثوں پر مشتمل ایک ثقافتی میلہ منعقد کر رہی ہے۔ سب کو شرکت کی دعوت دی جاتی ہے۔"
     },
@@ -408,6 +408,18 @@ const DATA = {
       ur: "اسکالرشپ درخواستیں جمع کرانے کی آخری تاریخ 30 مئی 2026 تک بڑھا دی گئی ہے۔ طلباء کو جلد از جلد درخواست مکمل کرنے کا مشورہ دیا جاتا ہے۔"
     },
     category: "Notice"
+  },
+  {
+    id: 5,
+    title: { en: "Silver Jubilee Function — 25 Years of Excellence", ta: "வெள்ளி விழா — 25 ஆண்டு சிறப்பு", ur: "سلور جوبلی تقریب — 25 سال کی شاندار خدمات" },
+    date: "2026-06-15",
+    content: {
+      en: "Tamil Nadu State Urdu Academy celebrates its Silver Jubilee — 25 years of dedicated service to Urdu language, literature, and culture. A grand commemorative function will be held with distinguished guests from across the nation.",
+      ta: "தமிழ்நாடு மாநில உருது அகாதமி தனது வெள்ளி விழாவைக் கொண்டாடுகிறது — உருது மொழி, இலக்கியம் மற்றும் கலாச்சாரத்திற்கான 25 ஆண்டு அர்ப்பணிப்பான சேவை.",
+      ur: "تامل ناڈو اسٹیٹ اردو اکیڈمی اپنی سلور جوبلی منا رہی ہے — اردو زبان، ادب اور ثقافت کی 25 سال کی مسلسل خدمت۔"
+    },
+    category: "Special",
+    pinned: true
   }
   ],
 
@@ -433,9 +445,9 @@ const DATA = {
   /* ── TIMELINE ── */
   timeline: [
     {
-      year: "1992",
-      title: { en: "Academy Established", ta: "அகாதெமி நிறுவப்பட்டது", ur: "اکیڈمی کا قیام" },
-      desc: { en: "Founded by the Government of Tamil Nadu to promote Urdu language.", ta: "உருது மொழியை மேம்படுத்துவதற்காக தமிழ்நாடு அரசால் நிறுவப்பட்டது.", ur: "اردو زبان کے فروغ کے لیے حکومت تامل ناڈو کے ذریعے قائم کیا گیا۔" }
+      year: "2000",
+      title: { en: "Academy Established", ta: "அகாதமி நிறுவப்பட்டது", ur: "اکیڈمی کا قیام" },
+      desc: { en: "Established in 2000 by Honorable Chief Minister Dr. M. Karunanidhi to promote Urdu language, literature, and culture.", ta: "மாண்புமிகு முதலமைச்சர் டாக்டர் மு. கருணாநிதி அவர்களால் 2000 ஆம் ஆண்டு உருது மொழி, இலக்கியம் மற்றும் கலாச்சாரத்தை மேம்படுத்த நிறுவப்பட்டது.", ur: "2000 میں معزز وزیر اعلیٰ ڈاکٹر ایم کروناندھی کے ذریعے اردو زبان، ادب اور ثقافت کے فروغ کے لیے قائم کیا گیا۔" }
     },
     {
       year: "2005",
@@ -451,6 +463,11 @@ const DATA = {
       year: "2024",
       title: { en: "Cultural Revival Project", ta: "கலாச்சார மறுமலர்ச்சி திட்டம்", ur: "ثقافتی احیاء کا منصوبہ" },
       desc: { en: "Expanded support for traditional arts, calligraphy, and poetry.", ta: "பாரம்பரிய கலைகள், கையெழுத்து மற்றும் கவிதைக்கான ஆதரவு விரிவுபடுத்தப்பட்டது.", ur: "روایتی فنون، خطاطی اور شاعری کے لیے تعاون میں توسیع۔" }
+    },
+    {
+      year: "2025",
+      title: { en: "Silver Jubilee Year", ta: "வெள்ளி விழா ஆண்டு", ur: "سلور جوبلی سال" },
+      desc: { en: "Celebrating 25 years of service to Urdu language and culture in Tamil Nadu.", ta: "தமிழ்நாட்டில் உருது மொழி மற்றும் கலாச்சாரத்திற்கான 25 ஆண்டு சேவையைக் கொண்டாடுதல்.", ur: "تامل ناڈو میں اردو زبان اور ثقافت کی 25 سال کی خدمت کا جشن۔" }
     }
   ],
 
@@ -465,6 +482,11 @@ const DATA = {
       text: { en: "New Calligraphy Artist Grant — Apply Now", ta: "புதிய கையெழுத்து கலைஞர் மானியம் — இப்போது விண்ணப்பிக்கவும்", ur: "نیو خطاطی آرٹسٹ گرانٹ — ابھی اپلائی کریں" }, 
       link: "schemes", 
       icon: "ri-quill-pen-line" 
+    },
+    { 
+      text: { en: "Silver Jubilee Function — 25 Years of Excellence", ta: "வெள்ளி விழா — 25 ஆண்டு சிறப்பு", ur: "سلور جوبلی — 25 سال کی شاندار خدمات" }, 
+      link: "announcements", 
+      icon: "ri-trophy-line" 
     }
   ],
 
@@ -503,5 +525,44 @@ const DATA = {
       { id: 1, title: "Scholarship 2026", date: "2026-04-15", status: "published" },
       { id: 2, title: "Workshop Update", date: "2026-04-10", status: "draft" }
     ]
-  }
+  },
+
+  /* ── COURSES ── */
+  courses: [
+    {
+      id: 1,
+      title: { en: "Learn Urdu — Beginner", ta: "உருது கற்க — தொடக்க நிலை", ur: "اردو سیکھیں — ابتدائی" },
+      duration: { en: "3 Months", ta: "3 மாதங்கள்", ur: "3 ماہ" },
+      description: { en: "A foundational course for beginners to learn Urdu script, basic grammar, and conversational skills.", ta: "உருது எழுத்து, அடிப்படை இலக்கணம் மற்றும் உரையாடல் திறன்களைக் கற்றுக்கொள்ள ஆரம்பநிலையினருக்கான அடிப்படை பாடநெறி.", ur: "اردو رسم الخط، بنیادی گرامر اور گفتگو کی مہارتیں سیکھنے کے لیے ابتدائی کورس۔" },
+      icon: "ri-book-2-line"
+    },
+    {
+      id: 2,
+      title: { en: "Diploma in Urdu", ta: "உருது டிப்ளோமா", ur: "اردو میں ڈپلوما" },
+      duration: { en: "1 Year", ta: "1 வருடம்", ur: "1 سال" },
+      description: { en: "A comprehensive diploma program covering advanced Urdu literature, poetry, and academic writing.", ta: "மேம்பட்ட உருது இலக்கியம், கவிதை மற்றும் கல்வி எழுத்து பற்றிய விரிவான டிப்ளோமா திட்டம்.", ur: "اعلیٰ اردو ادب، شاعری اور علمی تحریر کا جامع ڈپلوما پروگرام۔" },
+      icon: "ri-graduation-cap-line"
+    },
+    {
+      id: 3,
+      title: { en: "Urdu Calligraphy", ta: "உருது கையெழுத்துக் கலை", ur: "اردو خطاطی" },
+      duration: { en: "3 Months", ta: "3 மாதங்கள்", ur: "3 ماہ" },
+      description: { en: "Master the art of Urdu calligraphy with expert guidance on Nastaliq and other traditional scripts.", ta: "நஸ்தலிக் மற்றும் பிற பாரம்பரிய எழுத்து முறைகளில் நிபுணர் வழிகாட்டுதலுடன் உருது கையெழுத்துக் கலையில் தேர்ச்சி பெறுங்கள்.", ur: "نستعلیق اور دیگر روایتی رسم الخط میں ماہرین کی رہنمائی میں اردو خطاطی کے فن میں مہارت حاصل کریں۔" },
+      icon: "ri-quill-pen-line"
+    }
+  ],
+
+  /* ── OBJECTIVES ── */
+  objectives: [
+    { icon: "ri-global-line", title: { en: "Promote Urdu Language", ta: "உருது மொழியை மேம்படுத்துதல்", ur: "اردو زبان کا فروغ" }, desc: { en: "Promote and develop Urdu language, literature, and culture across Tamil Nadu.", ta: "தமிழ்நாடு முழுவதும் உருது மொழி, இலக்கியம் மற்றும் கலாச்சாரத்தை மேம்படுத்துதல்.", ur: "تامل ناڈو بھر میں اردو زبان، ادب اور ثقافت کو فروغ دینا۔" } },
+    { icon: "ri-ancient-gate-line", title: { en: "Preserve Heritage", ta: "பாரம்பரியத்தைப் பாதுகாத்தல்", ur: "ورثے کا تحفظ" }, desc: { en: "Preserve Urdu heritage while adapting to modern education standards.", ta: "நவீன கல்வி தரத்திற்கு ஏற்ப உருது பாரம்பரியத்தைப் பாதுகாத்தல்.", ur: "جدید تعلیمی معیارات کے مطابق اردو ورثے کا تحفظ۔" } },
+    { icon: "ri-government-line", title: { en: "Institutional Leadership", ta: "நிறுவன தலைமை", ur: "ادارہ جاتی قیادت" }, desc: { en: "Serve as the primary institutional body for Urdu development in Tamil Nadu.", ta: "தமிழ்நாட்டில் உருது மேம்பாட்டிற்கான முதன்மை நிறுவன அமைப்பாகச் செயல்படுதல்.", ur: "تامل ناڈو میں اردو کی ترقی کے لیے بنیادی ادارہ جاتی ادارے کے طور پر خدمات انجام دینا۔" } }
+  ],
+
+  /* ── AWARDS ── */
+  awards: [
+    { id: 1, name: { en: "Allama Iqbal Award", ta: "அல்லாமா இக்பால் விருது", ur: "علامہ اقبال ایوارڈ" }, recipient: { en: "Dr. Syed Fazlur Rahman", ta: "டாக்டர் சையது ஃபஸ்லுர் ரஹ்மான்", ur: "ڈاکٹر سید فضل الرحمان" }, contribution: { en: "Outstanding contribution to Urdu poetry and literary criticism", ta: "உருது கவிதை மற்றும் இலக்கிய விமர்சனத்தில் சிறந்த பங்களிப்பு", ur: "اردو شاعری اور ادبی تنقید میں نمایاں خدمات" }, year: "2025", image: "images/officials/official-2.png" },
+    { id: 2, name: { en: "Mirza Ghalib Award", ta: "மிர்சா காலிப் விருது", ur: "مرزا غالب ایوارڈ" }, recipient: { en: "Prof. Nasreen Banu", ta: "பேராசிரியர் நஸ்ரீன் பானு", ur: "پروفیسر نسرین بانو" }, contribution: { en: "Lifelong dedication to Urdu education and women empowerment", ta: "உருது கல்வி மற்றும் பெண்கள் மேம்பாட்டிற்கான வாழ்நாள் அர்ப்பணிப்பு", ur: "اردو تعلیم اور خواتین کی بااختیاریت کے لیے تاحیات خدمات" }, year: "2025", image: "images/officials/official-2.png" },
+    { id: 3, name: { en: "Kaifi Azmi Award", ta: "கைஃபி அஸ்மி விருது", ur: "کیفی اعظمی ایوارڈ" }, recipient: { en: "Shri Abdul Qadir", ta: "ஸ்ரீ அப்துல் காதிர்", ur: "جناب عبدالقادر" }, contribution: { en: "Pioneering Urdu theater and dramatic arts in South India", ta: "தென்னிந்தியாவில் உருது நாடகம் மற்றும் நாடகக் கலைகளில் முன்னோடி", ur: "جنوبی ہندوستان میں اردو تھیٹر اور ڈرامائی فنون میں سبقت" }, year: "2024", image: "images/officials/official-2.png" }
+  ]
 };

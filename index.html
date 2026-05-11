@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tamil Nadu Urdu State Academy — தமிழ்நாடு உருது அகாதெமி</title>
-  <meta name="description" content="Official platform of Tamil Nadu Urdu State Academy. Explore government schemes, scholarships, cultural events, and applications for Urdu language promotion in Tamil Nadu.">
+  <title>Tamil Nadu State Urdu Academy — தமிழ்நாடு மாநில உருது அகாதமி</title>
+  <meta name="description" content="Official platform of Tamil Nadu State Urdu Academy, Department of Higher Education. Explore government schemes, scholarships, cultural events, and courses for Urdu language promotion in Tamil Nadu.">
   <meta name="keywords" content="Tamil Nadu, Urdu Academy, Scholarships, Schemes, Government, Education, Culture">
-  <meta name="author" content="Tamil Nadu Urdu State Academy">
+  <meta name="author" content="Tamil Nadu State Urdu Academy">
   <meta name="theme-color" content="#0096C7">
 
   <!-- Fonts -->
@@ -22,24 +22,35 @@
 </head>
 <body>
 
+  <!-- ========== TOP UTILITY BAR ========== -->
+  <div class="top-bar" id="top-bar">
+    <div class="container top-bar__inner">
+      <span class="top-bar__item"><i class="ri-time-line"></i> <span data-i18n="office_hours">Office Hours: 10:00 AM – 5:30 PM</span></span>
+      <span class="top-bar__item"><i class="ri-mail-line"></i> info@tnurduacademy.gov.in</span>
+      <span class="top-bar__item"><i class="ri-phone-line"></i> +91 44 2852 1234</span>
+    </div>
+  </div>
+
   <!-- ========== NAVBAR ========== -->
   <nav class="navbar" id="navbar">
     <div class="container navbar__inner">
       <a href="#home" class="navbar__brand" id="nav-brand">
         <div class="navbar__logo">
-          <span class="navbar__logo-icon">ا</span>
+          <img src="images/tn-logo.png" alt="Government of Tamil Nadu" class="navbar__logo-img">
         </div>
         <div class="navbar__brand-text">
-          <span class="navbar__title" data-i18n="academy_title">Tamil Nadu Urdu State Academy</span>
-          <span class="navbar__subtitle" data-i18n="academy_subtitle">தமிழ்நாடு உருது அகாதெமி</span>
+          <span class="navbar__title" data-i18n="academy_title">Tamil Nadu State Urdu Academy</span>
+          <span class="navbar__subtitle" data-i18n="academy_subtitle">Department of Higher Education, Government of Tamil Nadu</span>
         </div>
       </a>
       <ul class="navbar__links" id="nav-links">
         <li><a href="#home" class="navbar__link active" data-page="home" data-i18n="nav_home">Home</a></li>
         <li><a href="#about" class="navbar__link" data-page="about" data-i18n="nav_about">About</a></li>
+        <li><a href="#courses" class="navbar__link" data-page="courses" data-i18n="nav_courses">Courses</a></li>
         <li><a href="#schemes" class="navbar__link" data-page="schemes" data-i18n="nav_schemes">Schemes</a></li>
-        <li><a href="#events" class="navbar__link" data-page="events" data-i18n="nav_events">Events</a></li>
+        <li><a href="#awards" class="navbar__link" data-page="awards" data-i18n="nav_awards">Awards</a></li>
         <li><a href="#announcements" class="navbar__link" data-page="announcements" data-i18n="nav_announcements">Announcements</a></li>
+        <li><a href="#events" class="navbar__link" data-page="events" data-i18n="nav_events">Events</a></li>
         <li><a href="#gallery" class="navbar__link" data-page="gallery" data-i18n="nav_gallery">Gallery</a></li>
         <li><a href="#contact" class="navbar__link" data-page="contact" data-i18n="nav_contact">Contact</a></li>
       </ul>
@@ -69,9 +80,11 @@
     <ul class="mobile-nav__links">
       <li><a href="#home" data-page="home">Home</a></li>
       <li><a href="#about" data-page="about">About</a></li>
+      <li><a href="#courses" data-page="courses">Courses</a></li>
       <li><a href="#schemes" data-page="schemes">Schemes</a></li>
-      <li><a href="#events" data-page="events">Events</a></li>
+      <li><a href="#awards" data-page="awards">Awards</a></li>
       <li><a href="#announcements" data-page="announcements">Announcements</a></li>
+      <li><a href="#events" data-page="events">Events</a></li>
       <li><a href="#gallery" data-page="gallery">Gallery</a></li>
       <li><a href="#contact" data-page="contact">Contact</a></li>
       <li><a href="#login" data-page="login" id="mobile-login-btn"><i class="ri-user-line"></i> Login</a></li>
@@ -90,11 +103,11 @@
         <div class="footer__col footer__about">
           <div class="footer__brand">
             <div class="navbar__logo navbar__logo--footer">
-              <span class="navbar__logo-icon">ا</span>
+              <img src="images/tn-logo.png" alt="Government of Tamil Nadu" class="navbar__logo-img">
             </div>
-            <h3>Tamil Nadu Urdu State Academy</h3>
+            <h3>Tamil Nadu State Urdu Academy</h3>
           </div>
-          <p>Promoting Urdu language, literature, and culture across Tamil Nadu since 1992. A Government of Tamil Nadu initiative.</p>
+          <p>Promoting Urdu language, literature, and culture across Tamil Nadu since 2000. A Government of Tamil Nadu initiative.</p>
           <div class="footer__social">
             <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
             <a href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a>
@@ -107,7 +120,9 @@
           <ul>
             <li><a href="#home" data-i18n="nav_home">Home</a></li>
             <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+            <li><a href="#courses" data-i18n="nav_courses">Courses</a></li>
             <li><a href="#schemes" data-i18n="nav_schemes">Schemes</a></li>
+            <li><a href="#awards" data-i18n="nav_awards">Awards</a></li>
             <li><a href="#events" data-i18n="nav_events">Events</a></li>
             <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
           </ul>
@@ -127,12 +142,12 @@
             <li><i class="ri-map-pin-line"></i> <span data-i18n="address">No. 45, Anna Salai, Chennai – 600002</span></li>
             <li><i class="ri-phone-line"></i> +91 44 2852 1234</li>
             <li><i class="ri-mail-line"></i> info@tnurduacademy.gov.in</li>
-            <li><i class="ri-time-line"></i> Mon–Sat: 9:30 AM – 5:30 PM</li>
+            <li><i class="ri-time-line"></i> <span data-i18n="office_hours">Office Hours: 10:00 AM – 5:30 PM</span></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
-        <p><span data-i18n="copyright">© 2026 Tamil Nadu Urdu State Academy. All rights reserved.</span> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p><span data-i18n="copyright">© 2026 Tamil Nadu State Urdu Academy. All rights reserved.</span> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
         <p class="footer__gov" data-i18n="gov_initiative">A Government of Tamil Nadu Initiative</p>
       </div>
     </div>
@@ -164,8 +179,10 @@
     <div class="announcement-modal">
       <button class="announcement-modal__close" onclick="closeAnnouncementModal()"><i class="ri-close-line"></i></button>
       <div class="announcement-modal__header">
-        <div class="announcement-modal__logo">ا</div>
-        <div class="announcement-modal__academy-text" data-i18n="academy_title">Tamil Nadu Urdu State Academy</div>
+        <div class="announcement-modal__logo">
+          <img src="images/tn-logo.png" alt="Government of Tamil Nadu" class="navbar__logo-img">
+        </div>
+        <div class="announcement-modal__academy-text" data-i18n="academy_title">Tamil Nadu State Urdu Academy</div>
       </div>
       <div class="announcement-modal__body">
         <h2 class="announcement-modal__title">Part-Time Urdu Certificate Course</h2>
